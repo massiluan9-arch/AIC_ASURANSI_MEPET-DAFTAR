@@ -22,20 +22,19 @@ PT Aktu Proteksi menjual asuransi harta benda tanpa menjadikan reasuransi solusi
 
 ```
 AIC2026-PT-Aktu-Proteksi/
-├── paper/                  naskah final (PDF)
 ├── data/                   data sumber, dikelompokkan per tipe
 │   ├── ekonomi_pasar/      BI, BPS, PHEI, SBN, deposito, IHSG, OECD
 │   ├── industri_asuransi/  OJK statistik 2024 dan 2025, MAIPARK, AAUI, penetrasi
 │   └── katastrofe/         gempa (USGS, intensitas, kerentanan, eksposur GEM), bencana BNPB 2025, IRBI 2024
 ├── referensi/              regulasi OJK, polis standar, dokumen teknis, jurnal terbuka, daftar pustaka
-├── analisis/               kode dan keluaran tiap tahap analisis + register asumsi (Excel)
-│   ├── 1_olah_data/        ekstraksi MAIPARK dan OJK menjadi tabel rapi
-│   ├── 2_model_bencana/    model kerugian katastrofe (R)
-│   ├── 3_investasi_mmbr/   model hasil investasi dan MMBR (Python)
-│   ├── 4_simulasi_terpadu/ neraca 100.000 tahun, matriks skenario, kerugian kritis
-│   ├── 5_solusi_motera/    rancangan solusi, MOTERA, biaya dan kelayakan
-│   └── 6_uji_kepekaan/     uji kepekaan struktural
-└── laporan/                kode penyusun angka, gambar, dan naskah; gambar paper
+└── analisis/               kode dan keluaran tiap tahap analisis + register asumsi (Excel)
+    ├── 1_olah_data/        ekstraksi MAIPARK dan OJK menjadi tabel rapi
+    ├── 2_model_bencana/    model kerugian katastrofe (R)
+    ├── 3_investasi_mmbr/   model hasil investasi dan MMBR (Python)
+    ├── 4_simulasi_terpadu/ neraca 100.000 tahun, matriks skenario, kerugian kritis
+    ├── 5_solusi_motera/    rancangan solusi, MOTERA, biaya dan kelayakan
+    └── 6_uji_kepekaan/     uji kepekaan struktural
+
 ```
 
 Setiap folder utama punya README sendiri: [data](data/README.md), [referensi](referensi/README.md), [analisis](analisis/README.md), [laporan](laporan/README.md).
